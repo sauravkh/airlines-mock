@@ -1,0 +1,53 @@
+.jumbotron {
+	background-color: #14578e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.login {
+	font-size: 1em;
+	font-weight:300;
+	color: #fff;
+	font-family: RobotoBold, Helvetica, Arial;
+}
+
+.header  {
+	font-size: 1.5em;
+	font-weight:300;
+	font-family: RobotoBold, Helvetica, Arial;
+}
+.header-pt-1 {
+	color : #ffffff;
+}
+.header-pt-2 {
+	color: #ddbd36;
+}
+
+.rating-circle {
+	border-radius: 50%;
+    background: #f78152;
+    color: white;
+    font-family: RobotoBold, Helvetica, Arial;
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 0;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+}
+
+.airline-desc {
+	padding-left: 30px; 
+}
+
+
+
+tr { 
+border-bottom: 1px solid rgba(0,0,0,0.1);
+padding-left: 50px ;
+}

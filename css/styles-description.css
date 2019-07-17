@@ -1,0 +1,134 @@
+.jumbotron {
+	background-color: #14578e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.jumbotron-footer {
+
+	color: rgba(200,200,200,0.8);
+	background-color: #14578e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 100;
+	display: flex;
+	justify-content:center;
+}
+
+.login {
+	font-size: 1em;
+	font-weight:300;
+	color: #fff;
+	font-family: RobotoBold, Helvetica, Arial;
+}
+
+.header  {
+	font-size: 1.5em;
+	font-weight:300;
+	font-family: RobotoBold, Helvetica, Arial;
+}
+.header-pt-1 {
+	color : #ffffff;
+}
+.header-pt-2 {
+	color: #ddbd36;
+}
+
+
+.airline-desc {
+	padding-left: 30px; 
+}
+
+.rating-circle {
+	border-radius: 50%;
+    background: #f78152;
+    color: white;
+    font-family: RobotoBold, Helvetica, Arial;
+    font-size: 1.75rem;
+    font-weight: normal;
+    padding: 0;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    float: left;
+}
+.rating-circle-medium {
+	border-radius: 50%;
+    background: #f78152;
+    color: white;
+    font-family: RobotoBold, Helvetica, Arial;
+    font-size: 1.55rem;
+    font-weight: normal;
+    padding: 0;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    float: left;
+}
+
+
+
+.rating-circle-small {
+	padding-left: 2px;
+	border-radius: 50%;
+    background: #f78152;
+    border:1px solid black;
+    font-family: RobotoBold, Helvetica, Arial;
+    font-size: 1.75rem;
+    font-weight: normal;
+    padding: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 90px;
+    float: left;
+}
+
+.rating-circle-small-blank {
+	padding-left: 2px;
+	border-radius: 50%;
+    background: #fff;
+    border:1px solid black;
+    font-family: RobotoBold, Helvetica, Arial;
+    font-size: 1.75rem;
+    font-weight: normal;
+    padding: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 90px;
+    float: left;
+}
+
+.star {
+    display: inline-block;
+    background: url(../images/stars.png) no-repeat right center transparent;
+    background-size: auto 100%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    text-indent: -1000px;
+    overflow: hidden;
+    margin-right: 0.1875rem;
+}
+
+.small-ratings {
+	padding-left:30px;
+}
+
+.small-details {
+	padding-left:180px;
+}
+
+
+tr { 
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
