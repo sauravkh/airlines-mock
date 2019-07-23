@@ -107,18 +107,6 @@
     float: left;
 }
 
-.star {
-    display: inline-block;
-    background: url(../images/stars.png) no-repeat right center transparent;
-    background-size: auto 100%;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    vertical-align: middle;
-    text-indent: -1000px;
-    overflow: hidden;
-    margin-right: 0.1875rem;
-}
 
 .small-ratings {
 	padding-left:30px;

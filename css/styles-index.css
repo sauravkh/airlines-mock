@@ -24,7 +24,16 @@
 .header-pt-2 {
 	color: #ddbd36;
 }
+.jumbotron-footer {
 
+	color: rgba(200,200,200,0.8);
+	background-color: #14578e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 100;
+	display: flex;
+	justify-content:center;
+}
 .rating-circle {
 	border-radius: 50%;
     background: #f78152;
