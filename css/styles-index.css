@@ -1,5 +1,5 @@
 .jumbotron {
-	background-color: #14578e;
+	background-color: #B43757;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	display: flex;
@@ -19,15 +19,17 @@
 	font-family: RobotoBold, Helvetica, Arial;
 }
 .header-pt-1 {
+	font-weight: 400;
 	color : #ffffff;
 }
 .header-pt-2 {
+	font-weight: 400;
 	color: #ddbd36;
 }
 .jumbotron-footer {
 
 	color: rgba(200,200,200,0.8);
-	background-color: #14578e;
+	background-color: #B43757;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-weight: 100;
@@ -35,8 +37,8 @@
 	justify-content:center;
 }
 .rating-circle {
-	border-radius: 50%;
-    background: #f78152;
+	border-radius: ;
+    background: #D21F3C;
     color: white;
     font-family: RobotoBold, Helvetica, Arial;
     font-size: 1.25rem;
