@@ -16,6 +16,14 @@
 	justify-content:center;
 }
 
+.btn:active {
+	background-color: black;
+}
+
+body {
+	background-color: rgba(250,250,245,0.9)
+}
+
 .login {
 	font-size: 1em;
 	font-weight:300;
@@ -119,4 +127,5 @@
 
 tr { 
 border-bottom: 1px solid rgba(0,0,0,0.1);
+border:1px solid rgba(0,0,0,0.1);
 }
