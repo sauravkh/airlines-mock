@@ -71,6 +71,7 @@ dummy_reviews = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
 'Vivamus fringilla vehicula tellus. Fusce non mauris ut metus facilisis aliquam. Phasellus dignissim, arcu eu faucibus cursus, magna purus sagittis quam, at commodo augue odio vel massa. Vivamus tristique porta tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pellentesque elementum luctus. Ut dui risus, tempor ac est eget, cursus commodo tortor. Aliquam consequat viverra quam vitae scelerisque. Aliquam semper arcu fermentum lorem finibus placerat. Suspendisse sagittis tristique posuere. Proin ultrices magna id mollis luctus. Integer vehicula, ex vel fermentum dignissim, libero est euismod neque, a convallis lacus justo eu erat.'
 ]
 
+ratings = [6,7,9,2,10,3,4,6,7,9,2,10,3,4,6,7,9,2,1,3,4,8,9,9, 10]
 
 handleClick(10)
 
@@ -92,9 +93,14 @@ function handleClick (n) {
 		// create a html with that text
 		r = Math.floor((Math.random() * 24) + 0)
 		random_date = Math.floor((Math.random() * 31) + 1) +  '/' +  Math.floor((Math.random() * 12) + 1) + '/' +  Math.floor(Math.random() * (2018 - 2017 + 1) + 2017); 
-		rating = Math.floor((Math.random() * 10) + 1) 
+		// rating = Math.floor((Math.random() * 10) + 1) 
 
-		final_html = '<tr> <td style="vertical-align: top;"> <br> <div class="rating-circle-medium">' + rating + '/10</div> </td> <td class="airline-desc"> <br> ' 
+		for (j = 0 ; j < n ; j++) {
+			random_date = (i + 5) + '/' + (i%2 + 1) + '/' + 2019 
+		}
+ 		
+		r = i
+		final_html = '<tr> <td style="vertical-align: top;"> <br> <div class="rating-circle-medium">' + ratings[i] + '/10</div> </td> <td class="airline-desc"> <br> ' 
 		+ '<h4> ' + dummy_names[r]+ ', ' + random_date + ' </h4>' + 
 		' <br> <div> <span> ' + dummy_reviews[r] +
 		'</span> </div> <br> <table> <tr> <td class="type_of_traveller"><strong>Traveller Type</strong></td> <td class="small-details">Family Leisure</td> </tr> <tr> <td class="class"><strong>Class</strong></td> <td class="small-details">Economy Class</td> </tr> <tr> <td class="flight_route"><strong>Route</strong></td> <td class="small-details">Tel Aviv to Toronto via London </td> </tr> <tr> <td class="flight_date"><strong>Flight Date</strong></td> <td class="small-details">July 2019</td> </tr> <tr> <td class="comfort"><strong>Comfortable</strong></td> <td class="small-details"> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small-blank"></div> <div class="rating-circle-small-blank"></div> </td> </tr> <tr> <td class="service"><strong>Service </strong></td> <td class="small-details"> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small-blank"></div> </td> </tr> <tr> <td class="inflight_entertainment"><strong>Inflight Entertainment</strong></td> <td class="small-details"> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small-blank"></div> <div class="rating-circle-small-blank"></div> </td> </tr> <tr> <td class="ground_service"><strong>Ground Service </strong></td> <td class="small-details"> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small-blank"></div> </td> </tr> <tr> <td class="value_for_money"><strong>Value for Money</strong></td> <td class="small-details"> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small"></div> <div class="rating-circle-small-blank"></div> </td> </tr> <tr> <td class="recommended"><strong>Recommended</strong></td> <td class="small-details">Yes</td> </tr> <tr> <td class="helpful_reviews"><strong>Helpful Review Votes</strong></td> <td class="small-details">43</td> </tr> </table> <br> </td> </tr> '
